@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Create a Post</title>
+        <link rel="stylesheet" href="blog.css">
+        <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="create-post-container">
+            <header class="create-post-header">
+                <a href="blog.html">
+                <span class="close-btn">&times;</span>
+                </a>
+                <h2>Create a post</h2>
+                <a href="blog.html">
+                <button class="post-btn">Post</button>
+                </a>
+            </header>
+
+            <div class="create-body">
+                <input type="text" class="create-title" placeholder="Add a title...">
+                <textarea class="create-description" placeholder="Add a description..."></textarea>
+
+                <div class="image-upload-section">
+                    <label for="image-upload" class="upload-label">Upload an image</label>
+                    <input type="file" id="image-upload" class="image-input" accept="image/*">
+                    <span class="image-placeholder">No image selected</span>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

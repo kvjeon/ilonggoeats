@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Ilonggo Eats: Exploring the Flavors of Iloilo</title>
+        <link rel="stylesheet" href="blog.css">
+        <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    </head>
+    <body>
+        <header class="blog-header">
+            <div class="buttons">
+                <a href="login.html"><button class="login-btn">Log In</button></a>
+                <a href="signup.html"><button class="signup-btn">Sign Up</button></a>
+                <a href="login.html"><button class="signout-btn">Sign Out</button></a>
+            </div>
+            <div class="blog-text">
+                <h1> Ilonggo Eats: Exploring the Flavors of Iloilo</h1>
+            </div>
+        </header>
+
+        <header class="navigation">
+            <ul class="nav-links">
+                <li><a href="#" onclick="showSection('home')">Home</a></li>
+                <li><a href="#" onclick="showSection('food-adventures')">Food Adventures</a></li>
+                <li><a href="#" onclick="showSection('restaurants')">Restaurants</a></li>
+                <li><a href="#" onclick="showSection('contact')">Contact</a></li>
+                <li><a href="#" onclick="showSection('about')">About</a></li>
+            </ul>
+            <div class="search-bar-wrapper">
+                <div class="search-bar">
+                    <input type="text" id="search-input" placeholder="Search...">
+                    <button id="search-button">Search</button>
+                </div>
+                <a href="create.html">
+                    <button id="create-post-button" class="create-post-button">+</button>
+                </a>                  
+            </div>
+        </header>
+
+        <div class="layout">
+            <aside class="side-content">
+                <h1>Latest Posts</h1>
+                <div class="latest-container">
+                    <div class="latest1">
+                        <a href="batchoy.html">
+                            <img src="1.jpg" class="post-image">
+                            <p class="post-caption">Batchoy: Where savory meets satisfying in every spoonful!</p>
+                        </a>
+                            <div class="post-icons">
+                                <button class="icon-button like-button">
+                                    <i class="material-symbols-outlined heart-icon">favorite</i>
+                                    <span class="icon-text">Like</span>
+                                </button>
+                                <button class="icon-button">
+                                    <i class="material-symbols-outlined ">comment</i>
+                                    <span class="icon-text">Comment</span>
+                                </button>
+                            </div>
+                    </div>
+
+                    <div class="latest2">
+                        <a href="robertos.html">
+                            <img src="3.jpg" class="post-image">
+                            <p class="post-caption">Roberto's: Where Flavor Meets Love!</p>
+                        </a>    
+                            <div class="post-icons">
+                                <button class="icon-button like-button">
+                                    <i class="material-symbols-outlined heart-icon">favorite</i>
+                                    <span class="icon-text">Like</span>
+                                </button>
+                                <button class="icon-button">
+                                    <i class="material-symbols-outlined">comment</i>
+                                    <span class="icon-text">Comment</span>
+                                </button>
+                            </div>
+                    </div>
+                </div>
+            </aside>
+
+            <main class="main-content">
+                <div class="content-section active" id="home">
+                    <h1>Home</h1>
+                    <div class="home-container">
+                        <div class="home1">
+                            <a href="pancitmolo.html">
+                                <img src="pmolo.jpg" class="home-image">
+                                <p class="home-caption">Dumpling dreams and noodle delights! 🥟❤️ #PancitMolo</p>
+                            </a>
+
+                            <div class="home-icons">
+                                <button class="home-button like-button">
+                                    <i class="material-symbols-outlined heart-icon">favorite</i>
+                                    <span class="home-text">Like</span>
+                                </button>
+                                <button class="home-button">
+                                    <i class="material-symbols-outlined">comment</i>
+                                    <span class="home-text">Comment</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="home2">
+                            <a href="teds.html">
+                                <img src="4.jpg" class="home-image">
+                                <p class="home-caption">Warm your soul with Ted's La Paz Batchoy! Only at 📌Iloilo City</p>
+                            </a>
+
+                            <div class="home-icons">
+                                <button class="home-button like-button">
+                                    <i class="material-symbols-outlined heart-icon">favorite</i>
+                                    <span class="home-text">Like</span>
+                                </button>
+                                <button class="home-button">
+                                    <i class="material-symbols-outlined">comment</i>
+                                    <span class="home-text">Comment</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="home3">
+                            <a href="robertos.html">
+                            <img src="3.jpg" class="home-image">
+                            <p class="home-caption">Roberto's: Where Flavor Meets Love!</p>
+                            </a>
+
+                            <div class="home-icons">
+                                <button class="home-button like-button">
+                                    <i class="material-symbols-outlined heart-icon">favorite</i>
+                                    <span class="home-text">Like</span>
+                                </button>
+                                <button class="home-button">
+                                    <i class="material-symbols-outlined">comment</i>
+                                    <span class="home-text">Comment</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="home4">
+                            <a href="batchoy.html">
+                                <img src="1.jpg" class="home-image">
+                                <p class="home-caption">Batchoy: Where savory meets satisfying in every spoonful!</p>
+                            </a>
+
+                            <div class="home-icons">
+                                <button class="home-button like-button">
+                                    <i class="material-symbols-outlined heart-icon">favorite</i>
+                                    <span class="home-text">Like</span>
+                                </button>
+                                <button class="home-button">
+                                    <i class="material-symbols-outlined">comment</i>
+                                    <span class="home-text">Comment</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+
+                <div class="content-section" id="food-adventures">
+                    <h1>Food Adventures</h1>
+                    <div class="food-container">
+                        <div class="food1">
+                            <a href="kbl.html">
+                            <img src="2.jpg" class="food-image">
+                            <p class="food-caption">Life is short—eat the KBL first!</p>
+                            </a>
+
+                            <div class="food-icons">
+                                <button class="food-button like-button">
+                                    <i class="material-symbols-outlined heart-icon">favorite</i>
+                                    <span class="food-text">Like</span>
+                                </button>
+                                <button class="food-button">
+                                    <i class="material-symbols-outlined">comment</i>
+                                    <span class="food-text">Comment</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="food2">
+                            <a href="pancitmolo.html">
+                                <img src="pmolo.jpg" class="food-image">
+                                <p class="food-caption">Dumpling dreams and noodle delights! 🥟❤️ #PancitMolo</p>
+                            </a>
+
+                            <div class="food-icons">
+                                <button class="food-button like-button">
+                                    <i class="material-symbols-outlined heart-icon">favorite</i>
+                                    <span class="food-text">Like</span>
+                                </button>
+                                <button class="food-button">
+                                    <i class="material-symbols-outlined">comment</i>
+                                    <span class="food-text">Comment</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-section" id="restaurants">
+                    <h1>Restaurants</h1>
+                    <div class="resto-container">
+                        <div class="resto1">
+                            <a href="teds.html">
+                                <img src="4.jpg" class="resto-img">
+                                <p class="resto-caption">Warm your soul with Ted's La Paz Batchoy! Only at 📌Iloilo City</p>
+                            </a>
+
+                            <div class="resto-icons">
+                                <button class="resto-button like-button">
+                                    <i class="material-symbols-outlined heart-icon">favorite</i>
+                                    <span class="resto-text">Like</span>
+                                </button>
+                                <button class="resto-button">
+                                    <i class="material-symbols-outlined">comment</i>
+                                    <span class="resto-text">Comment</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="resto2">
+                            <a href="robertos.html">
+                                <img src="3.jpg" class="resto-img">
+                                <p class="resto-caption">Roberto's: Where Flavor Meets Love!</p>
+                            </a>
+                            <div class="resto-icons">
+                                <button class="resto-button like-button">
+                                    <i class="material-symbols-outlined heart-icon">favorite</i>
+                                    <span class="resto-text">Like</span>
+                                </button>
+                                <button class="resto-button">
+                                    <i class="material-symbols-outlined">comment</i>
+                                    <span class="resto-text">Comment</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-section" id="contact">
+                    <h1>Contact</h1>
+                    <div class="contact-container">
+                        <div class="contact-box">
+                            <h2>Get in Touch!</h2>
+                            <p>I'd love to hear from you. Please reach out via my social media accounts:</p>
+                        </div>
+                        <div class="contact-box">
+                            <div class="social-media-links">
+                                <a href="https://www.facebook.com/bncxlvr" target="_blank">Facebook</a>
+                                <a href="https://www.instagram.com/bncxlvr/" target="_blank">Instagram</a>
+                                <a href="https://x.com/milkyjeon00" target="_blank">Twitter</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="content-section" id="about">
+                    <h1>About</h1>
+                    <div class="about-container">
+                        <div class="about-box">
+                            <h1> Welcome to Ilonggo Eats, where we celebrate the vibrant culinary heritage of Iloilo! This blog is dedicated to uncovering the rich flavors, traditional dishes, and modern twists that define Ilonggo cuisine.</h1>
+                            <p>What to Expect:</p>
+                            <p>Food Reviews: Explore individual food reviews that spotlight must-try dishes, hidden gems, and seasonal specialties. Each review will include flavor profiles, presentation, and tips on how to enjoy the dish to its fullest.</p>
+                            <p>Restaurant Reviews: In addition to restaurant reviews, dive into the best dining spots in the region, from local street food stalls to high-end restaurants, each offering a unique taste of Ilonggo culture.</p>
+                            <h1>Join Us</h1>
+                            <p>Whether you’re a local, a visitor, or simply a food enthusiast, Ilonggo Eats invites you to explore and savor the delightful dishes of Iloilo. Let’s embark on this flavorful journey together!</p>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+
+        <footer class="blog-footer">
+            <div class="footer-container">
+                <div class="about-author">
+                    <img src="author.jpg" alt="Author Photo" class="author-photo">
+                    <div class="author-info">
+                        <h2>About the Author</h2>
+                        <p>Bea Bianca Villaluz also known as Bianca is a 21-year old student from Iloilo Science and Technology taking up Bachelor of Science in Computer Science. Bianca is a girl who loves to explore new ideas and push boundaries. With a curious mind and a creative spirit, she finds joy in the simple things and excitement in the unknown. Whether it's dreaming up new stories, diving into a great book, or losing herself in music, Bianca approaches everything with a sense of wonder and a big smile. She believes in living life with passion and kindness, always ready for the next adventure with an open heart and a fearless attitude.</p>
+                    </div>
+                </div>
+
+                <div class="mailing-list">
+                    <h2>Join My Mailing List</h2>
+                    <form action="#" method="POST">
+                        <input type="email" placeholder="Enter your email here*" required>
+                        <button type="submit" class="subscribe-button">Subscribe Now</button>
+                    </form>
+                </div>
+            </div>
+        </footer>
+
+        <div id="commentPopup" class="popup">
+            <div class="popup-content">
+                <span class="close">&times;</span>
+                <h2>Leave a Comment</h2>
+                <textarea id="commentText" placeholder="Write your comment..." rows="4" cols="50"></textarea>
+                <button id="submitComment">Submit Comment</button>
+            </div>
+        </div>
+        
+        <script src="blog.js"></script>
+    </body>
+</html>
